@@ -1,0 +1,13 @@
+turnutils_uclient -v -l 1000 -u alice -w secret1 -c -e 127.0.0.1 127.0.0.1
+
+turnutils_peer -v -p 3480
+
+or
+
+turnutils_peer -v
+
+turnutils_uclient -v -l 1000 -y -u alice -w secret1 -c -e 127.0.0.1 127.0.0.1
+
+for sendIndications
+
+turnutils_uclient -v -l 1000 -u alice -w secret1 -s -e 127.0.0.1 127.0.0.1
