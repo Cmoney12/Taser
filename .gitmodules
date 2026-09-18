@@ -1,0 +1,3 @@
+[submodule "libstunxx"]
+	path = libstunxx
+	url = https://github.com/Cmoney12/libstunxx
