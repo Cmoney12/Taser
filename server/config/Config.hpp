@@ -11,7 +11,7 @@
 namespace pt = boost::property_tree;
 
 struct Network {
-    std::string bind_address = "0.0.0.0";
+    std::string bind_address = "127.0.0.1";
     std::uint16_t bind_port = 3478;
 };
 
